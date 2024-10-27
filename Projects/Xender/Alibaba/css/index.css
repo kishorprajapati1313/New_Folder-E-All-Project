@@ -1,0 +1,160 @@
+*{
+    margin:0 0;  padding:0 0;
+}
+.cont{
+    border:0px solid white;  margin:0 1%;  padding:0 0; 
+}
+
+.clear{
+    clear:both;  float:none;
+}
+
+.center{
+    text-align:center;  
+}
+
+.right{
+    text-align:right;
+}
+
+.cover{
+    height:110px;  width:150px; margin:0 6%;
+}
+
+h1{
+    font-family: sans-serif 
+}
+
+/*                                   first-part is here             */
+
+
+.first-part{
+    padding:1% 0;  height:9px;
+} 
+
+.logo{
+    float:left; margin-top:10px;
+}
+
+.menu ul li {
+    list-style-type:none;  display:inline; padding:1%;  line-height:90px;  
+}
+
+a{
+    text-decoration: none; font-weight: bold;  color:brown;  
+}
+
+a:hover{
+    color:rgb(103, 2, 2);  
+}
+
+
+/*                                second-part is here                  */
+
+
+.second-part{
+    background-size: cover;  background-image:url(images/land.png);
+}
+
+.part-1{
+    height:260px; 
+}
+
+.sp{
+    margin-top:90px;
+}
+
+.space{
+    margin-top:100px;
+}
+
+.var{
+    width:400px;  height:40px;  border-radius:10px;
+}
+
+.btn{
+    background-color:rgb(206, 84, 164); color:white;  width:80px; height:30px; border-radius:5px;
+}
+
+.btn:hover{
+    background-color:rgb(152, 8, 101);  
+}
+
+
+/*                              thierd-part  is  here                   */
+
+
+.third-part{
+    height:100%;  width:100%; padding:0.5% 0;
+}
+
+.imge{
+    height:350px;  width:600px;  margin-left:350px;
+}
+
+.img{
+    height:500px;  width:70%;  margin-left:190px;
+}
+
+
+/*                              fourth-part  is  here                   */
+
+
+.fourth-part{
+    height:400px;  background-color:antiquewhite;   
+}
+
+.number{
+    padding:2% auto; margin:5% 0;
+}
+
+.text{
+    font-weight:bold;  
+}
+
+.text-main{
+    font-weight:bold;   font-size:30px;
+}
+
+.frame a{
+    color:rgb(82, 82, 240);
+}
+
+.frame a:hover{
+    color:rgb(0, 0, 246);
+}
+
+.frame{
+    height:210px;  width:180px;  background-color:white; border-radius:8px; border:2px solid black;   float:left;  margin:1% 4%; 
+    padding:0 0.5%;
+}
+
+/*                        for the order              */
+
+.color{
+    background-color:#1e90ff;
+}
+
+.white{
+    color:white;
+}
+
+.input1{
+    padding:2%; margin:3%;
+}
+
+
+
+/*                              lat-part  is  here                   */
+
+
+.last-part{
+    margin:1% 1%;  padding:1% 1%;
+}
+
+
+
+
+
+
+

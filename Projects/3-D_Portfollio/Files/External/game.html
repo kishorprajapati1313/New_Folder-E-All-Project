@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="external.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>2-D Unity Projects:-</h1>
+            <div class="part">
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../images/photo.jpg" alt="Project 1">
+                            <video class="video" src="../videos/Jainam.mp4" loop muted></video>
+                        </div>
+                        <div class="card-content">
+                            <h3>Ballon Game</h3>
+                            <p>A 2-d game for the android to shoot the ninja star to pop the Ballon.</p>
+                            <h6>  Tech Use:-</h6>
+                            <p>C#, Unity</p>
+                            <a href="#" class="btn">Source Code</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../images/photo.jpg" alt="Project 1">
+                            <video class="video" src="../videos/Jainam.mp4" loop muted></video>
+                        </div>
+                        <div class="card-content">
+                            <h3>AR Game</h3>
+                            <p>A simple AR game to spwan the object when it detect the QR</p>
+                            <h6>Tech Use:-</h6>
+                            <p>C#, Unity</p>
+                            <a href="#" class="btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1>3-D Unity Projects:-</h1>
+            <div class="part">
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../images/photo.jpg" alt="Project 1">
+                            <video class="video" src="../videos/Jainam.mp4" loop muted></video>
+                        </div>
+                        <div class="card-content">
+                            <h3>Pigen message Game</h3>
+                            <p>A 3-d game for the Desktop to pass the message to NPC for the Completing the Game.</p>
+                            <h6>Tech Use:-</h6>
+                            <p>C#, Unity</p>
+                            <a href="#" class="btn">Source Code</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../images/photo.jpg" alt="Project 1">
+                            <video class="video" src="../videos/Jainam.mp4" loop muted></video>
+                        </div>
+                        <div class="card-content">
+                            <h3>Zombie Game</h3>
+                            <p>A 3-d game for the Desktop Kill Zombie and score higher.</p>
+                            <h6>Tech Use:-</h6>
+                            <p>C#, Unity</p>
+                            <a href="#" class="btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script>
+        // Select all card-image elements
+        const cardImages = document.querySelectorAll('.card-image');
+
+        // Iterate over each card-image element
+        cardImages.forEach(cardImage => {
+            const video = cardImage.querySelector('.video');
+
+            // Add event listener for mouse enter
+            cardImage.addEventListener('mouseenter', () => {
+                video.play();
+            });
+
+            // Add event listener for mouse leave
+            cardImage.addEventListener('mouseleave', () => {
+                video.pause();
+                video.currentTime = 0; // Reset video to start
+            });
+        });
+    </script>
+
+</body>
+
+</html>

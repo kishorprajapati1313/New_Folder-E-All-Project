@@ -1,0 +1,138 @@
+23-05-08 10:25:19 ** --- MESSAGE BEGIN ---
+23-05-08 10:25:19 ** To: kishorprajapati1014@gmail.com
+23-05-08 10:25:19 ** Subject: Forgot Password
+23-05-08 10:25:19 ** form: kjhgfdsa1014@gmail.com
+23-05-08 10:25:19 ** 
+23-05-08 10:25:19 ** Your Code was 782354
+23-05-08 10:25:19 ** --- MESSAGE END ---
+23-05-08 10:25:20 ** Connecting to smtp.gmail.com:587
+23-05-08 10:25:20 ** Connected.
+23-05-08 10:25:21 << 220 smtp.gmail.com ESMTP ge14-20020a17090b0e0e00b0024e069c4099sm12447110pjb.46 - gsmtp<EOL>
+23-05-08 10:25:21 >> EHLO DESKTOP-OU0JL4L<EOL>
+23-05-08 10:25:21 << 250-smtp.gmail.com at your service, [157.32.74.173]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+23-05-08 10:25:21 ** Authenticating as kjhgfdsa1014@gmail.com
+23-05-08 10:25:21 >> STARTTLS<EOL>
+23-05-08 10:25:22 << 220 2.0.0 Ready to start TLS<EOL>
+23-05-08 10:25:22 >> EHLO DESKTOP-OU0JL4L<EOL>
+23-05-08 10:25:22 << 250-smtp.gmail.com at your service, [157.32.74.173]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+23-05-08 10:25:22 >> AUTH LOGIN<EOL>
+23-05-08 10:25:22 << 334 VXNlcm5hbWU6<EOL>
+23-05-08 10:25:22 >> a2poZ2Zkc2ExMDE0QGdtYWlsLmNvbQ==<EOL>
+23-05-08 10:25:23 << 334 UGFzc3dvcmQ6<EOL>
+23-05-08 10:25:23 >> eHl6anpndmFrc3lkanF6aQ==<EOL>
+23-05-08 10:25:23 << 235 2.7.0 Accepted<EOL>
+23-05-08 10:25:23 >> MAIL FROM: <kjhgfdsa1014@gmail.com><EOL>
+23-05-08 10:25:24 << 250 2.1.0 OK ge14-20020a17090b0e0e00b0024e069c4099sm12447110pjb.46 - gsmtp<EOL>
+23-05-08 10:25:24 >> RCPT TO: <kishorprajapati1014@gmail.com><EOL>
+23-05-08 10:25:24 << 250 2.1.5 OK ge14-20020a17090b0e0e00b0024e069c4099sm12447110pjb.46 - gsmtp<EOL>
+23-05-08 10:25:24 >> DATA<EOL>
+23-05-08 10:25:24 << 354  Go ahead ge14-20020a17090b0e0e00b0024e069c4099sm12447110pjb.46 - gsmtp<EOL>
+23-05-08 10:25:24 >> Date: Mon, 8 May 2023 10:25:24 -0700<EOL>
+23-05-08 10:25:24 >> To: kishorprajapati1014@gmail.com<EOL>
+23-05-08 10:25:24 >> Subject: Forgot Password<EOL>
+23-05-08 10:25:24 >> form: kjhgfdsa1014@gmail.com<EOL>
+23-05-08 10:25:24 >> <EOL>
+23-05-08 10:25:24 >> Your Code was 782354<EOL>
+23-05-08 10:25:24 >> .<EOL>
+23-05-08 10:25:25 << 250 2.0.0 OK  1683523274 ge14-20020a17090b0e0e00b0024e069c4099sm12447110pjb.46 - gsmtp<EOL>
+23-05-08 10:25:25 >> QUIT<EOL>
+23-05-08 10:25:26 << 221 2.0.0 closing connection ge14-20020a17090b0e0e00b0024e069c4099sm12447110pjb.46 - gsmtp<EOL>
+23-05-08 10:25:26 ** Disconnected.
+23-05-08 10:25:26 ** Disconnected.
+23-05-08 10:25:26 ** Disconnected.
+23-05-08 10:27:22 ** --- MESSAGE BEGIN ---
+23-05-08 10:27:22 ** To: kishorprajapati1014@gmail.com
+23-05-08 10:27:22 ** Subject: Forgot Password
+23-05-08 10:27:22 ** form: kjhgfdsa1014@gmail.com
+23-05-08 10:27:22 ** 
+23-05-08 10:27:22 ** Your Code was 336363
+23-05-08 10:27:22 ** --- MESSAGE END ---
+23-05-08 10:27:23 ** Connecting to smtp.gmail.com:587
+23-05-08 10:27:23 ** Disconnected.
+23-05-08 10:27:23 ** Disconnected.
+23-05-08 10:27:23 ** Disconnected.
+23-05-08 10:27:23 ** Socket Error # 11001<EOL>Host not found.
+23-05-08 10:28:00 ** --- MESSAGE BEGIN ---
+23-05-08 10:28:00 ** To: kishorprajapati1014@gmail.com
+23-05-08 10:28:00 ** Subject: Forgot Password
+23-05-08 10:28:00 ** form: kjhgfdsa1014@gmail.com
+23-05-08 10:28:00 ** 
+23-05-08 10:28:00 ** Your Code was 699810
+23-05-08 10:28:00 ** --- MESSAGE END ---
+23-05-08 10:28:02 ** Connecting to smtp.gmail.com:587
+23-05-08 10:28:02 ** Disconnected.
+23-05-08 10:28:02 ** Disconnected.
+23-05-08 10:28:02 ** Disconnected.
+23-05-08 10:28:02 ** Socket Error # 11001<EOL>Host not found.
+23-05-08 10:31:53 ** --- MESSAGE BEGIN ---
+23-05-08 10:31:53 ** To: kishorprajapati1014@gmail.com
+23-05-08 10:31:53 ** Subject: Forgot Password
+23-05-08 10:31:53 ** form: kjhgfdsa1014@gmail.com
+23-05-08 10:31:53 ** 
+23-05-08 10:31:53 ** Your Code was 333964
+23-05-08 10:31:53 ** --- MESSAGE END ---
+23-05-08 10:31:54 ** Connecting to smtp.gmail.com:587
+23-05-08 10:31:54 ** Disconnected.
+23-05-08 10:31:54 ** Disconnected.
+23-05-08 10:31:54 ** Disconnected.
+23-05-08 10:31:54 ** Socket Error # 11001<EOL>Host not found.
+23-05-08 10:37:39 ** --- MESSAGE BEGIN ---
+23-05-08 10:37:39 ** To: kishorprajapati1014@gmail.com
+23-05-08 10:37:39 ** Subject: Forgot Password
+23-05-08 10:37:39 ** form: kjhgfdsa1014@gmail.com
+23-05-08 10:37:39 ** 
+23-05-08 10:37:39 ** Your Code was 370512
+23-05-08 10:37:39 ** --- MESSAGE END ---
+23-05-08 10:37:40 ** Connecting to smtp.gmail.com:587
+23-05-08 10:37:40 ** Disconnected.
+23-05-08 10:37:40 ** Disconnected.
+23-05-08 10:37:40 ** Disconnected.
+23-05-08 10:37:40 ** Socket Error # 11001<EOL>Host not found.
+23-05-08 10:38:30 ** --- MESSAGE BEGIN ---
+23-05-08 10:38:30 ** To: kishorprajapati1014@gmail.com
+23-05-08 10:38:30 ** Subject: Forgot Password
+23-05-08 10:38:30 ** form: kjhgfdsa1014@gmail.com
+23-05-08 10:38:30 ** 
+23-05-08 10:38:30 ** Your Code was 325142
+23-05-08 10:38:30 ** --- MESSAGE END ---
+23-05-08 10:38:31 ** Connecting to smtp.gmail.com:587
+23-05-08 10:38:31 ** Disconnected.
+23-05-08 10:38:31 ** Disconnected.
+23-05-08 10:38:31 ** Disconnected.
+23-05-08 10:38:31 ** Socket Error # 11001<EOL>Host not found.
+23-05-08 10:41:05 ** --- MESSAGE BEGIN ---
+23-05-08 10:41:05 ** To: kishorprajapati1014@gmail.com
+23-05-08 10:41:05 ** Subject: Forgot Password
+23-05-08 10:41:05 ** form: kjhgfdsa1014@gmail.com
+23-05-08 10:41:05 ** 
+23-05-08 10:41:06 ** Your Code was 120856
+23-05-08 10:41:06 ** --- MESSAGE END ---
+23-05-08 10:41:07 ** Connecting to smtp.gmail.com:587
+23-05-08 10:41:07 ** Disconnected.
+23-05-08 10:41:07 ** Disconnected.
+23-05-08 10:41:07 ** Disconnected.
+23-05-08 10:41:07 ** Socket Error # 11001<EOL>Host not found.
+23-05-08 10:42:04 ** --- MESSAGE BEGIN ---
+23-05-08 10:42:04 ** To: kishorprajapati1014@gmail.com
+23-05-08 10:42:05 ** Subject: Forgot Password
+23-05-08 10:42:05 ** form: kjhgfdsa1014@gmail.com
+23-05-08 10:42:05 ** 
+23-05-08 10:42:05 ** Your Code was 894831
+23-05-08 10:42:05 ** --- MESSAGE END ---
+23-05-08 10:42:06 ** Connecting to smtp.gmail.com:587
+23-05-08 10:42:06 ** Disconnected.
+23-05-08 10:42:06 ** Disconnected.
+23-05-08 10:42:06 ** Disconnected.
+23-05-08 10:42:06 ** Socket Error # 11001<EOL>Host not found.
+23-05-08 10:52:03 ** --- MESSAGE BEGIN ---
+23-05-08 10:52:03 ** To: kishorprajapati1014@gmail.com
+23-05-08 10:52:03 ** Subject: Forgot Password
+23-05-08 10:52:03 ** form: kjhgfdsa1014@gmail.com
+23-05-08 10:52:03 ** 
+23-05-08 10:52:03 ** Your Code was 56760
+23-05-08 10:52:03 ** --- MESSAGE END ---
+23-05-08 10:52:04 ** Connecting to smtp.gmail.com:587
+23-05-08 10:52:04 ** Disconnected.
+23-05-08 10:52:04 ** Disconnected.
+23-05-08 10:52:04 ** Disconnected.
+23-05-08 10:52:04 ** Socket Error # 11001<EOL>Host not found.

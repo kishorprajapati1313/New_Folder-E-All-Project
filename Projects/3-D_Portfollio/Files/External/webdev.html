@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="external.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>REACT Projects:-</h1>
+            <div class="part">
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../images/react/react1.png" alt="Project 1">
+                            <video class="video" src="../videos/react/react1.mp4" loop muted></video>
+                        </div>
+                        <div class="card-content">
+                            <h3>Never-News</h3>
+                            <p>A system for managing News records with defferent Categories.</p>
+                            <h6>Tech Use:-</h6>
+                            <p>React,Css, Bootstrap</p>
+                            <a href="#" class="btn">Source Code</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../images/react/react3.png" alt="Project 1">
+                            <video class="video" src="../videos/react/react3.mp4" loop muted></video>
+                        </div>
+                        <div class="card-content">
+                            <h3>Video Gerater</h3>
+                            <p>An online tool for generating videos with Image.</p>
+                            <h6>Tech Use:-</h6>
+                            <p>MERN Stack, Mui</p>
+                            <a href="#" class="btn">Source Code</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../images/react/react2.png" alt="Project 1">
+                            <video class="video" src="../videos/react/react2.mp4" loop muted></video>
+                        </div>
+                        <div class="card-content">
+                            <h3>To-Do List</h3>
+                            <p>An online platform for managing tasks and to-do lists.</p>
+                            <h6>Tech Use:-</h6>
+                            <p>React,Css, Bootstrap</p>
+                            <a href="#" class="btn">Source Code</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../images/react/react4.png" alt="Project 1">
+                            <video class="video" src="../videos/react/react4.mp4" muted></video>
+                        </div>
+                        <div class="card-content">
+                            <h3>Image Genrater</h3>
+                            <p>An online tool for generating images with customizable parameters.</p>
+                            <h6>Tech Use:-</h6>
+                            <p>MERN Stack, Mui</p>
+                            <a href="#" class="btn">Source Code</a>
+                        </div>
+                    </div>
+                    <!-- Repeat this card structure for each project -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1>PHP Projects:-</h1>
+            <div class="part">
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../images/php/php1.png" alt="Project 1">
+                            <video class="video" src="../videos/php/php1.mp4" loop muted></video>
+                        </div>
+                        <div class="card-content">
+                            <h3>Student Management</h3>
+                            <p>A system for managing student records, including enrollment, grades.</p>
+                            <h6>Tech Use:-</h6>
+                            <p>HTML,CSS,PHP</p>
+                            <a href="#" class="btn">Source Code</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../images/php/php2.png" alt="Project 1">
+                            <video class="video" src="../videos/php/php2.mp4" loop muted></video>
+                        </div>
+                        <div class="card-content">
+                            <h3>Book Selling</h3>
+                            <p>An online platform for buying and selling books.</p>
+                            <h6>Tech Use:-</h6>
+                            <p>HTML,CSS,PHP</p>
+                            <a href="#" class="btn">Source Code</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../images/php/php3.png" alt="Project 1">
+                            <video class="video" src="../videos/php/php3.mp4" loop muted></video>
+                        </div>
+                        <div class="card-content">
+                            <h3>video Formate Changer</h3>
+                            <p>An online tool for converting video files to different formats.</p>
+                            <h6>Tech Use:-</h6>
+                            <p>HTML,CSS,PHP</p>
+                            <a href="#" class="btn">Source Code</a>
+                        </div>
+                    </div>
+
+                    <!-- Repeat this card structure for each project -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Select all card-image elements
+        const cardImages = document.querySelectorAll('.card-image');
+
+        // Iterate over each card-image element
+        cardImages.forEach(cardImage => {
+            const video = cardImage.querySelector('.video');
+
+            // Add event listener for mouse enter
+            cardImage.addEventListener('mouseenter', () => {
+                video.play();
+            });
+
+            // Add event listener for mouse leave
+            cardImage.addEventListener('mouseleave', () => {
+                video.pause();
+                video.currentTime = 0; // Reset video to start
+            });
+        });
+    </script>
+
+</body>
+
+</html>

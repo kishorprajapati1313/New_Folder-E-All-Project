@@ -1,0 +1,123 @@
+*{
+    margin:0; font-family:Arial, Helvetica, sans-serif;  
+}
+a{
+    text-decoration: none; color:rgb(165, 42, 42);  
+}
+
+a:hover{
+    color:rgba(7, 7, 7, 0.995);
+}
+
+.clear{
+    clear:both;  float:none; 
+}
+
+.center{
+    text-align:center;
+}
+
+/*                        menu is here               */
+ 
+.menu{
+    font-weight: bold; text-align:center;   border-bottom:1px solid black;    padding:1.2%; background-color:rgb(196, 193, 248); font-size:130%;
+}
+
+.floating ul li{
+    display:inline; list-style-type: none;  padding:1% 1%;    margin-left: 10px;  display:inline;
+}
+
+/*                        main is here               */
+
+
+.main{
+   background-color:rgb(203, 184, 184); padding:2%;
+}
+
+.col{
+    height:100px; background-color: rgb(9, 43, 48);  width:180px;  border-radius:2px; padding:1%;  float:left;  padding: 3%;  margin-left: 5%;
+    color:white;
+}
+
+.col .font{
+    font-size:25px;             
+}
+
+.font-2{
+    font-size:30px;
+}
+
+h1{
+    font-size:40px; 
+}
+
+.wer{
+    padding:2%; 
+}
+
+
+/*                        footer is here               */
+
+
+.footer{
+    background-color:rgba(86, 0, 0, 0.488);  padding:1%;  font-weight: bold;
+}
+
+/*                         admin panle is here               */
+
+.btn-p{
+     background-color: lightblue;  padding:1%;
+}
+
+.btn-p:hover{
+    background-color: rgb(33, 193, 247);  padding:1%; color:white;
+}
+
+.tbl{
+    width:100%;  
+}
+
+table tr th{
+    border-bottom:1.5px solid black;  padding:1%;  text-align:left;   word-spacing: 3px;
+}
+  
+table tr td{
+    padding:1%;  
+}
+
+.btn{
+    background-color:#1e90ff;  text-decoration:none;  padding:1%;  color:white;  font-weight:bold;
+  }
+  
+  .btn:hover{
+    background-color: #3742fa;;   color:white;
+  }
+  
+  .btn-s{
+    background-color:#7bed9f;  text-decoration:none;  padding:1%;  color:black;  font-weight:bold;  cursor:pointer; 
+  }
+  
+  .btn-s:hover{
+    background-color: #2ed573;   
+  }
+  
+  .btn-d{
+    background-color:#ff6b81;  text-decoration:none;  padding:1%;  color:white;  font-weight:bold;
+  }
+  
+  .btn-d:hover{
+    background-color: #ff4757;  font-weight:bold; 
+  }
+
+.tbl-30{
+    margin:2% 2%; width:40%;
+}
+
+.s{
+    color:green;
+}
+
+.f{
+    color:red;
+}
+

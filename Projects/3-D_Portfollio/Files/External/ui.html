@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="external.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container" style="height: 100vh;">
+            <h1>FIGMA Projects:-</h1>
+            <div class="part">
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../images/ui/ui1.png" alt="Project 1">
+                            <video class="video" src="../videos/ui/ui1.mp4" loop muted></video>
+                        </div>
+                        <div class="card-content">
+                            <h3>VimCall</h3>
+                            <p>Interactive Design of Video Call Webpages In FIGMA.</p>
+                            <h6>Tech Use:-</h6>
+                            <p>FIGMA</p>
+                            <a href="https://www.figma.com/proto/uJe4iUDf4uFZCPVS449inn/Untitled?node-id=1-2" class="btn">Source Code</a>
+                        </div>
+                    </div>
+
+
+                    <!-- Repeat this card structure for each project -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <script>
+        // Select all card-image elements
+        const cardImages = document.querySelectorAll('.card-image');
+
+        // Iterate over each card-image element
+        cardImages.forEach(cardImage => {
+            const video = cardImage.querySelector('.video');
+
+            // Add event listener for mouse enter
+            cardImage.addEventListener('mouseenter', () => {
+                video.play();
+            });
+
+            // Add event listener for mouse leave
+            cardImage.addEventListener('mouseleave', () => {
+                video.pause();
+                video.currentTime = 0; // Reset video to start
+            });
+        });
+    </script>
+
+</body>
+
+</html>
